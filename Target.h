@@ -11,6 +11,7 @@ public:
 	~Target();
 	void createNew();
 	void draw();
-	bool collision(int x, int y);
+	int getX();
+	int getY();
 };
 

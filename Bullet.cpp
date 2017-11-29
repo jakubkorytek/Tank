@@ -6,9 +6,8 @@ Bullet::Bullet()
 {
 	al_init();
 	al_init_image_addon();
-	bullet = al_load_bitmap("bullet.png");
 	isHere = false;
-	target.createNew();
+	score = 0;
 
 }
 
@@ -17,28 +16,44 @@ Bullet::~Bullet()
 {
 }
 
-void Bullet::draw(int x, int y, float velocity, float angle, double gravity)
+void Bullet::draw(int x, int y, float velocity, float angle, double gravity, Target *target)
 {
 	isHere = true;//po naciœniêciu spacji pocisk staje siê aktywny
-	for (int i = x; i < 1600; i++)//pêtla wyœwietlaj¹ca po pixelu trajektoriê lotu
+
+	//pêtla wyœwietlaj¹ca po pixelu trajektoriê lotu
+	for (int i = x; i < 1600; i++)
 	{
-		target.draw();
-		this->y =y - (i*tan(angle)) + (gravity*i*i )/(2 * velocity* velocity*cos(angle)*cos(angle));//obliczanie rzutu ukoœnego
+		//obliczanie rzutu ukoœnego
+		this->y =y - (i*tan(angle)) + (gravity*i*i )/(2 * velocity* velocity*cos(angle)*cos(angle));
+
+		//rysowanie
 		al_draw_pixel(i, this->y, al_map_rgb(255, 255, 255));
-		if (target.collision(i, this->y))
-			target.createNew();
 		al_flip_display();
+
+		//wykrywanie kolizji
+		if (target->getX() == i && (target->getY() < this->y && (60 + target->getY()) > this->y))
+		{
+			target->createNew();//po wykryciu kolizji generujê now¹ tarczê strzelnicz¹
+			score += 10;//zwiêkszam wynik
+			isHere = false;
+			break;
+		}
 	}
 	isHere = false;
+	
 }
 
 void Bullet::destroy()
 {
-	al_destroy_bitmap(bullet);
 }
 
 
 bool Bullet::hello()
 {
 	return this->isHere;
+}
+
+int Bullet::getScore()
+{
+	return this->score;
 }

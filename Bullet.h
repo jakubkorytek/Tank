@@ -9,15 +9,16 @@ private:
 	int x, y;
 	double angle;
 	bool isHere;
-	ALLEGRO_BITMAP *bullet;
-	Target target;
+	int score;
+	
 
 public:
 	Bullet();
 	~Bullet();
-	void draw(int x,int y, float velocity,float angle, double gravity);
+	void draw(int x,int y, float velocity,float angle, double gravity, Target *target);
 	void destroy();
 	bool hello();
+	int getScore();
 
 };
 

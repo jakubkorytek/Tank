@@ -9,10 +9,14 @@ Tank::Tank()
 	barrelAngle = 0;
 	barrelX = 50;
 	barrelY = 530;
-	tank = al_load_bitmap("tank.png");
+
+
+	tank = al_load_bitmap("tank.png");//³adowanie pliku png
 	if (!tank)
 		al_show_native_message_box(display, "ERROR", "NIE MOZNA", "OTWORZYC PLIKU TANK",NULL, NULL);
-	barrel = al_load_bitmap("barrel.png");
+
+
+	barrel = al_load_bitmap("barrel.png");//³adowanie pliku png
 	if(!barrel)
 		al_show_native_message_box(display, "ERROR", "NIE MOZNA", "OTWORZYC PLIKU BARREL", NULL, NULL);
 
@@ -38,7 +42,7 @@ float Tank::getAngle()
 void Tank::draw()
 {
 	al_draw_scaled_rotated_bitmap(barrel, 0, 0, barrelX, barrelY, 1, 0.1, barrelAngle, NULL);//rysowanie bitmapy 
-	//al_draw_scaled_bitmap(tank, 0, 10, 145, 129, 0, 500, 100, 100, NULL);
+	al_draw_scaled_bitmap(tank, 0, 10, 145, 129, 0, 500, 100, 100, NULL);
 	
 }
 

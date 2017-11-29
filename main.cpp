@@ -2,5 +2,5 @@
 int main()
 {
 	Game game;
-	game.gameLoop();
+	game.gameLoop();//ca³a gra w jednej linijce :)
 }

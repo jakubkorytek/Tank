@@ -32,14 +32,17 @@ private:
 	double gravity = 9.81;
 	int i;
 	Bullet bullet;
+	Target target;
 	ALLEGRO_FONT *font;
+	//tablice znaków potrzebne do wypisywania zmiennych
 	char Angle[3];
 	char PosX[9];
 	char PosY[9];
 	char Width[6];
 	char bheight[8];
 	char bwidth[8];
-	char powLvl[2];
+	char score[5];
+	char powLvl[3];
 
 	
 public:
