@@ -1,0 +1,953 @@
+stdio    D         file_stdio.c:109  file_stdio_fopen                 [   0.00000] opening C:\Users\Kuba\Documents\Visual Studio 2017\Projects\Tank\Debug\allegro5.cfg r
+system   D            wsystem.c:738  maybe_parent_dir                 [   0.00000] Also searching C:\Users\Kuba\documents\visual studio 2017\Projects\Tank\
+system   D            wsystem.c:788  _al_win_safe_load_library        [   0.00000] PathFindOnPath found: C:\WINDOWS\system32\shcore.dll
+system   D            wsystem.c:699  load_library_at_path             [   0.00000] Calling LoadLibrary C:\WINDOWS\system32\shcore.dll
+system   I            wsystem.c:702  load_library_at_path             [   0.00000] Loaded C:\WINDOWS\system32\shcore.dll
+system   I             system.c:263  al_install_system                [   0.00000] Allegro version: 5.2.3
+stdio    D         file_stdio.c:109  file_stdio_fopen                 [   0.00035] opening tank.png rb
+dtor     D               dtor.c:196  _al_register_destructor          [   0.00067] added dtor for bitmap 008E5600, func 0F402243
+stdio    D         file_stdio.c:109  file_stdio_fopen                 [   0.00223] opening barrel.png rb
+dtor     D               dtor.c:196  _al_register_destructor          [   0.00241] added dtor for bitmap 008E4690, func 0F402243
+stdio    D         file_stdio.c:109  file_stdio_fopen                 [   0.00320] opening bullet.png rb
+dtor     D               dtor.c:196  _al_register_destructor          [   0.00336] added dtor for bitmap 008E01D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.00495] added dtor for bitmap 008E3C18, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.00632] added dtor for bitmap 008E4AD0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01113] added dtor for bitmap 008FC418, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01139] added dtor for sub_bitmap 008FC590, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01143] added dtor for sub_bitmap 008FC708, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01146] added dtor for sub_bitmap 008FC880, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01150] added dtor for sub_bitmap 008FC9F8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01153] added dtor for sub_bitmap 008FCB70, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01156] added dtor for sub_bitmap 008FCCE8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01159] added dtor for sub_bitmap 008FD668, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01163] added dtor for sub_bitmap 008FD7E0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01166] added dtor for sub_bitmap 008FD958, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01169] added dtor for sub_bitmap 008FDAD0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01172] added dtor for sub_bitmap 008FDC48, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01176] added dtor for sub_bitmap 008FE6B8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01179] added dtor for sub_bitmap 008FE830, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01182] added dtor for sub_bitmap 008FDDE8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01185] added dtor for sub_bitmap 008FE9A8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01188] added dtor for sub_bitmap 008FEB20, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01191] added dtor for sub_bitmap 008FDF60, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01203] added dtor for sub_bitmap 008FE0D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01207] added dtor for sub_bitmap 008FE250, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01210] added dtor for sub_bitmap 008FE3C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01213] added dtor for sub_bitmap 008FE540, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01217] added dtor for sub_bitmap 009934B0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01220] added dtor for sub_bitmap 00993C08, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01223] added dtor for sub_bitmap 00993918, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01227] added dtor for sub_bitmap 00993048, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01230] added dtor for sub_bitmap 00994070, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01233] added dtor for sub_bitmap 00993628, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01236] added dtor for sub_bitmap 00992ED0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01239] added dtor for sub_bitmap 00993EF8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01243] added dtor for sub_bitmap 009931C0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01246] added dtor for sub_bitmap 00993338, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01249] added dtor for sub_bitmap 009937A0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01254] added dtor for sub_bitmap 00993A90, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01257] added dtor for sub_bitmap 00993D80, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01261] added dtor for sub_bitmap 009941E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01264] added dtor for sub_bitmap 00994940, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01267] added dtor for sub_bitmap 00994360, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01270] added dtor for sub_bitmap 009944D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01273] added dtor for sub_bitmap 00994650, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01277] added dtor for sub_bitmap 00992D58, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01280] added dtor for sub_bitmap 00992BE0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01283] added dtor for sub_bitmap 009947C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01287] added dtor for sub_bitmap 009974E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01290] added dtor for sub_bitmap 00997660, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01293] added dtor for sub_bitmap 00997370, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01297] added dtor for sub_bitmap 009961D0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01300] added dtor for sub_bitmap 009967B0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01306] added dtor for sub_bitmap 009977D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01310] added dtor for sub_bitmap 00995BF0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01313] added dtor for sub_bitmap 00997950, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01316] added dtor for sub_bitmap 00996348, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01320] added dtor for sub_bitmap 009964C0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01323] added dtor for sub_bitmap 00995D68, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01326] added dtor for sub_bitmap 00995EE0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01329] added dtor for sub_bitmap 00996058, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01333] added dtor for sub_bitmap 009971F8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01336] added dtor for sub_bitmap 00996638, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01339] added dtor for sub_bitmap 00996928, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01342] added dtor for sub_bitmap 00996AA0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01346] added dtor for sub_bitmap 00996C18, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01350] added dtor for sub_bitmap 00996D90, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01357] added dtor for sub_bitmap 00996F08, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01361] added dtor for sub_bitmap 00997080, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01365] added dtor for sub_bitmap 00997BF8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01370] added dtor for sub_bitmap 009994F0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01373] added dtor for sub_bitmap 00999088, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01377] added dtor for sub_bitmap 00997D70, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01380] added dtor for sub_bitmap 00998640, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01383] added dtor for sub_bitmap 00999668, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01387] added dtor for sub_bitmap 009997E0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01390] added dtor for sub_bitmap 00998D98, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01393] added dtor for sub_bitmap 00999958, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01396] added dtor for sub_bitmap 00999200, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01400] added dtor for sub_bitmap 00997EE8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01403] added dtor for sub_bitmap 00998060, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01408] added dtor for sub_bitmap 009981D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01411] added dtor for sub_bitmap 00998C20, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01414] added dtor for sub_bitmap 00999378, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01418] added dtor for sub_bitmap 009987B8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01422] added dtor for sub_bitmap 00998F10, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01425] added dtor for sub_bitmap 00998930, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01428] added dtor for sub_bitmap 00998350, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01431] added dtor for sub_bitmap 009984C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01435] added dtor for sub_bitmap 00998AA8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01439] added dtor for sub_bitmap 0099B720, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01442] added dtor for sub_bitmap 0099A580, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01445] added dtor for sub_bitmap 0099BE78, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01449] added dtor for sub_bitmap 0099A6F8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01452] added dtor for sub_bitmap 0099C168, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01455] added dtor for sub_bitmap 0099BA10, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01458] added dtor for sub_bitmap 0099BB88, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01462] added dtor for sub_bitmap 0099BFF0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01465] added dtor for sub_bitmap 0099B2B8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01468] added dtor for sub_bitmap 0099BD00, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01472] added dtor for sub_bitmap 0099AFC8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01475] added dtor for sub_bitmap 0099B898, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01481] added dtor for sub_bitmap 0099ACD8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01484] added dtor for sub_bitmap 0099AB60, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01487] added dtor for sub_bitmap 0099A408, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01491] added dtor for sub_bitmap 0099A870, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01494] added dtor for sub_bitmap 0099A9E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01497] added dtor for sub_bitmap 0099AE50, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01501] added dtor for sub_bitmap 0099B140, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01504] added dtor for sub_bitmap 0099B430, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01507] added dtor for sub_bitmap 0099B5A8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01511] added dtor for sub_bitmap 0099DA28, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01515] added dtor for sub_bitmap 0099E5E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01518] added dtor for sub_bitmap 0099E760, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01522] added dtor for sub_bitmap 0099E008, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01525] added dtor for sub_bitmap 0099DBA0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01529] added dtor for sub_bitmap 0099EBC8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01532] added dtor for sub_bitmap 0099E180, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01536] added dtor for sub_bitmap 0099E2F8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01539] added dtor for sub_bitmap 0099E8D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01542] added dtor for sub_bitmap 0099DD18, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01546] added dtor for sub_bitmap 0099EA50, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01549] added dtor for sub_bitmap 0099F1A8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01552] added dtor for sub_bitmap 0099DE90, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01556] added dtor for sub_bitmap 0099ED40, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01559] added dtor for sub_bitmap 0099E470, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01562] added dtor for sub_bitmap 0099D5C0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01566] added dtor for sub_bitmap 0099F030, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01569] added dtor for sub_bitmap 0099EEB8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01572] added dtor for sub_bitmap 0099F320, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01576] added dtor for sub_bitmap 0099D738, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01579] added dtor for sub_bitmap 0099D8B0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01583] added dtor for sub_bitmap 0099FF48, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01586] added dtor for sub_bitmap 009A1840, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01591] added dtor for sub_bitmap 009A19B8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01595] added dtor for sub_bitmap 009A0818, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01598] added dtor for sub_bitmap 009A0990, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01601] added dtor for sub_bitmap 009A0B08, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01605] added dtor for sub_bitmap 009A1B30, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01608] added dtor for sub_bitmap 009A0C80, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01611] added dtor for sub_bitmap 009A03B0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01615] added dtor for sub_bitmap 0099FDD0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01618] added dtor for sub_bitmap 009A0F70, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01622] added dtor for sub_bitmap 009A00C0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01625] added dtor for sub_bitmap 009A13D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01629] added dtor for sub_bitmap 009A0238, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01632] added dtor for sub_bitmap 009A10E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01636] added dtor for sub_bitmap 009A1260, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01639] added dtor for sub_bitmap 009A0528, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01642] added dtor for sub_bitmap 009A06A0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01646] added dtor for sub_bitmap 009A0DF8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01649] added dtor for sub_bitmap 009A1550, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01653] added dtor for sub_bitmap 009A16C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01657] added dtor for sub_bitmap 009A3780, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01660] added dtor for sub_bitmap 009A3318, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01664] added dtor for sub_bitmap 009A2D38, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01667] added dtor for sub_bitmap 009A25E0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01670] added dtor for sub_bitmap 009A2A48, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01674] added dtor for sub_bitmap 009A31A0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01677] added dtor for sub_bitmap 009A4050, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01681] added dtor for sub_bitmap 009A3608, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01684] added dtor for sub_bitmap 009A3490, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01688] added dtor for sub_bitmap 009A3A70, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01691] added dtor for sub_bitmap 009A2EB0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01695] added dtor for sub_bitmap 009A3028, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01698] added dtor for sub_bitmap 009A38F8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01703] added dtor for sub_bitmap 009A3D60, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01707] added dtor for sub_bitmap 009A2758, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01710] added dtor for sub_bitmap 009A3BE8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01714] added dtor for sub_bitmap 009A3ED8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01717] added dtor for sub_bitmap 009A41C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01720] added dtor for sub_bitmap 009A4340, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01724] added dtor for sub_bitmap 009A28D0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01727] added dtor for sub_bitmap 009A2BC0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01731] added dtor for sub_bitmap 009A6618, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01735] added dtor for sub_bitmap 009A5768, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01739] added dtor for sub_bitmap 009A5A58, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01742] added dtor for sub_bitmap 009A6A80, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01746] added dtor for sub_bitmap 009A61B0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01749] added dtor for sub_bitmap 009A5EC0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01753] added dtor for sub_bitmap 009A7350, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01756] added dtor for sub_bitmap 009A58E0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01760] added dtor for sub_bitmap 009A6328, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01763] added dtor for sub_bitmap 009A64A0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01767] added dtor for sub_bitmap 009A5BD0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01770] added dtor for sub_bitmap 009A6BF8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01774] added dtor for sub_bitmap 009A6038, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01777] added dtor for sub_bitmap 009A6790, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01781] added dtor for sub_bitmap 009A7060, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01784] added dtor for sub_bitmap 009A6D70, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01788] added dtor for sub_bitmap 009A6908, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01791] added dtor for sub_bitmap 009A5D48, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01795] added dtor for sub_bitmap 009A55F0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01798] added dtor for sub_bitmap 009A6EE8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01802] added dtor for sub_bitmap 009A71D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01806] added dtor for sub_bitmap 009A9E58, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01810] added dtor for sub_bitmap 009AA438, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01813] added dtor for sub_bitmap 009A8270, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01818] added dtor for sub_bitmap 009AA8A0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01822] added dtor for sub_bitmap 009A89C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01826] added dtor for sub_bitmap 009A8B40, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01829] added dtor for sub_bitmap 009AAA18, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01833] added dtor for sub_bitmap 009A9FD0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01836] added dtor for sub_bitmap 009A8CB8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01840] added dtor for sub_bitmap 009A8E30, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01843] added dtor for sub_bitmap 009A80F8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01847] added dtor for sub_bitmap 009A7E08, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01850] added dtor for sub_bitmap 009AA5B0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01854] added dtor for sub_bitmap 009AA2C0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01858] added dtor for sub_bitmap 009A8FA8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01861] added dtor for sub_bitmap 009A86D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01865] added dtor for sub_bitmap 009AA728, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01869] added dtor for sub_bitmap 009A9120, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01872] added dtor for sub_bitmap 009A83E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01876] added dtor for sub_bitmap 009AAB90, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01879] added dtor for sub_bitmap 009A7F80, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01883] added dtor for sub_bitmap 009A9298, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01886] added dtor for sub_bitmap 009A9410, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01890] added dtor for sub_bitmap 009A9588, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01893] added dtor for sub_bitmap 009A8560, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01897] added dtor for sub_bitmap 009A9700, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01901] added dtor for sub_bitmap 009A8850, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01905] added dtor for sub_bitmap 009A9878, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01908] added dtor for sub_bitmap 009A99F0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01912] added dtor for sub_bitmap 009A9B68, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01915] added dtor for sub_bitmap 009A9CE0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01919] added dtor for sub_bitmap 009AA148, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01923] added dtor for sub_bitmap 009AB750, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01926] added dtor for sub_bitmap 009ABA40, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01930] added dtor for sub_bitmap 009AB460, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01935] added dtor for sub_bitmap 009AAE80, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01939] added dtor for sub_bitmap 009AB5D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01942] added dtor for sub_bitmap 009AAD08, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01946] added dtor for sub_bitmap 009AB2E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01949] added dtor for sub_bitmap 009AB8C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01953] added dtor for sub_bitmap 009ABBB8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01957] added dtor for sub_bitmap 009AAFF8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01967] added dtor for sub_bitmap 009AB170, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01972] added dtor for sub_bitmap 009B1D98, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01976] added dtor for sub_bitmap 009B1F10, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01979] added dtor for sub_bitmap 009B2200, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01983] added dtor for sub_bitmap 009B1C20, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01987] added dtor for sub_bitmap 009B17B8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01990] added dtor for sub_bitmap 009B1350, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01994] added dtor for sub_bitmap 009B2088, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.01998] added dtor for sub_bitmap 009B1930, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02001] added dtor for sub_bitmap 009B14C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02005] added dtor for sub_bitmap 009B1640, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02009] added dtor for sub_bitmap 009B1AA8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02012] added dtor for sub_bitmap 009AF5F0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02016] added dtor for sub_bitmap 009AFA58, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02019] added dtor for sub_bitmap 009AF478, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02023] added dtor for sub_bitmap 009AF8E0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02027] added dtor for sub_bitmap 009AFEC0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02030] added dtor for sub_bitmap 009AED20, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02034] added dtor for sub_bitmap 009AFBD0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02038] added dtor for sub_bitmap 009B0EE8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02041] added dtor for sub_bitmap 009AF188, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02045] added dtor for sub_bitmap 009AEE98, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02048] added dtor for sub_bitmap 009B01B0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02052] added dtor for sub_bitmap 009B0328, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02056] added dtor for sub_bitmap 009AE450, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02061] added dtor for sub_bitmap 009B0618, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02074] added dtor for sub_bitmap 009AF300, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02083] added dtor for sub_bitmap 009B0BF8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02087] added dtor for sub_bitmap 009AFD48, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02091] added dtor for sub_bitmap 009B0038, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02096] added dtor for sub_bitmap 009B04A0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02100] added dtor for sub_bitmap 009AF010, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02104] added dtor for sub_bitmap 009AE740, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02107] added dtor for sub_bitmap 009AF768, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02111] added dtor for sub_bitmap 009B0790, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02115] added dtor for sub_bitmap 009AE5C8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02118] added dtor for sub_bitmap 009B0D70, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02122] added dtor for sub_bitmap 009AEA30, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02126] added dtor for sub_bitmap 009B0908, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02129] added dtor for sub_bitmap 009B0A80, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02133] added dtor for sub_bitmap 009AE8B8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02137] added dtor for sub_bitmap 009B1060, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02140] added dtor for sub_bitmap 009B11D8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02144] added dtor for sub_bitmap 009AEBA8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02150] added dtor for sub_bitmap 009B3480, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02153] added dtor for sub_bitmap 009B4620, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02157] added dtor for sub_bitmap 009B4EF0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02161] added dtor for sub_bitmap 009B41B8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02164] added dtor for sub_bitmap 009B5068, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02168] added dtor for sub_bitmap 009B3018, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02172] added dtor for sub_bitmap 009B3D50, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02176] added dtor for sub_bitmap 009B2EA0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02180] added dtor for sub_bitmap 009B3190, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02183] added dtor for sub_bitmap 009B3308, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02187] added dtor for sub_bitmap 009B35F8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02191] added dtor for sub_bitmap 009B2D28, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02195] added dtor for sub_bitmap 009B4C00, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02200] added dtor for sub_bitmap 009B4798, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02204] added dtor for sub_bitmap 009B4330, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02208] added dtor for sub_bitmap 009B3770, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02212] added dtor for sub_bitmap 009B38E8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02216] added dtor for sub_bitmap 009B3A60, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02219] added dtor for sub_bitmap 009B3BD8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02223] added dtor for sub_bitmap 009B3EC8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02227] added dtor for sub_bitmap 009B4D78, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02231] added dtor for sub_bitmap 009B4040, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02234] added dtor for sub_bitmap 009B2458, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02238] added dtor for sub_bitmap 009B28C0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02242] added dtor for sub_bitmap 009B44A8, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02245] added dtor for sub_bitmap 009B4910, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02249] added dtor for sub_bitmap 009B2748, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02253] added dtor for sub_bitmap 009B4A88, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02256] added dtor for sub_bitmap 009B51E0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02260] added dtor for sub_bitmap 009B25D0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02264] added dtor for sub_bitmap 009B2A38, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02268] added dtor for sub_bitmap 009B2BB0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02272] added dtor for sub_bitmap 009B57C0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02275] added dtor for sub_bitmap 009B5F18, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02279] added dtor for sub_bitmap 009B6090, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02283] added dtor for sub_bitmap 009B54D0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02286] added dtor for sub_bitmap 009B6208, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02290] added dtor for sub_bitmap 009B5DA0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02294] added dtor for sub_bitmap 009B5648, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02298] added dtor for sub_bitmap 009B5938, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02302] added dtor for sub_bitmap 009B5AB0, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02305] added dtor for sub_bitmap 009B5C28, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02309] added dtor for sub_bitmap 009B5358, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02314] added dtor for sub_bitmap 009B9A78, func 0F402243
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02318] added dtor for sub_bitmap 009B8470, func 0F402243
+dtor     D               dtor.c:227  _al_unregister_destructor        [   0.02324] removed dtor for bitmap 008E4AD0
+dtor     D               dtor.c:196  _al_register_destructor          [   0.02333] added dtor for font 008F1698, func 0F26105F
+dtor     D               dtor.c:227  _al_unregister_destructor        [   0.02337] removed dtor for bitmap 008E3C18
+system   D            wsystem.c:738  maybe_parent_dir                 [   0.02363] Also searching C:\Users\Kuba\Documents\Visual Studio 2017\Projects\Tank\
+system   D            wsystem.c:788  _al_win_safe_load_library        [   0.02383] PathFindOnPath found: C:\WINDOWS\system32\d3d9.dll
+system   D            wsystem.c:699  load_library_at_path             [   0.02387] Calling LoadLibrary C:\WINDOWS\system32\d3d9.dll
+system   I            wsystem.c:702  load_library_at_path             [   0.02852] Loaded C:\WINDOWS\system32\d3d9.dll
+d3d      I         d3d_disp.cpp:674  d3d_init_display                 [   0.06515] Render-to-texture: 1
+d3d      I         d3d_disp.cpp:1768 d3d_create_display_locked        [   0.06641] faux_fullscreen=0
+d3d      D         d3d_disp.cpp:1769 d3d_create_display_locked        [   0.06646] al_display=02BE8588
+d3d      D         d3d_disp.cpp:1770 d3d_create_display_locked        [   0.06648] al_display->vt=008DE4D0
+d3d      I d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0.07829] found 128 format combinations
+display  D   display_settings.c:212  debug_display_settings           [   0.07835] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07839] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07841] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07845] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07847] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07851] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.07854] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07857] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.07860] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07863] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07866] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07869] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07872] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07875] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.07878] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07881] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.07884] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07887] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07890] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07894] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07896] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07900] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.07902] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07906] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.07909] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07913] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07916] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07919] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07922] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07926] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.07928] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07932] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.07934] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07938] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07940] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07944] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07946] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07950] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.07953] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07956] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.07959] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07962] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07965] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07968] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07971] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07974] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.07977] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07980] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.07983] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07987] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07989] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07993] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.07995] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.07999] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.08002] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08005] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.08008] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08012] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.08014] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08018] Score is : 897
+display  D   display_settings.c:212  debug_display_settings           [   0.08020] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08024] Score is : 726
+display  D   display_settings.c:212  debug_display_settings           [   0.08027] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08030] Score is : 721
+display  D   display_settings.c:212  debug_display_settings           [   0.08033] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08036] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08039] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08042] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08045] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08049] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08051] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08055] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08058] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08061] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08064] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08068] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08070] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08074] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08077] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08080] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08083] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08086] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08089] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08093] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08095] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08099] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08102] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08106] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08108] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08112] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08115] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08118] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08121] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08124] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08127] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08131] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08133] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08137] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08140] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08143] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08146] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08150] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08152] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08156] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08159] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08162] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08165] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08169] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08172] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08175] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08178] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08181] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08184] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08188] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08190] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08194] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08197] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08201] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08204] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08208] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08210] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08214] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08217] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08220] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08223] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08226] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08229] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08233] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08235] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08239] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08241] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08245] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08248] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08251] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08254] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08257] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08260] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08263] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08266] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08270] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08272] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08276] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08278] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08282] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08284] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08288] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08290] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08294] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08302] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08306] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08309] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08312] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08315] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08319] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08321] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08325] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08327] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08331] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08333] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08337] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08339] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08343] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08345] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08349] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08352] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08355] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08358] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08362] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08364] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08368] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08370] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08374] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08376] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08380] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08382] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08386] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08389] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08392] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08395] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08398] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08403] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08407] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08410] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08413] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08416] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08419] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08422] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08425] Score is : 769
+display  D   display_settings.c:212  debug_display_settings           [   0.08428] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08432] Score is : 598
+display  D   display_settings.c:212  debug_display_settings           [   0.08434] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:527  _al_score_display_settings       [   0.08438] Score is : 593
+display  D   display_settings.c:212  debug_display_settings           [   0.08440] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08444] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08447] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08451] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08453] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08457] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08460] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08463] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08466] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08470] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08472] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08476] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08479] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08483] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08485] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08489] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08492] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08495] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08498] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08505] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08508] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08511] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08514] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08518] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08520] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08524] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08527] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08530] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08533] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08537] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08540] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08543] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08546] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08550] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08553] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08556] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08559] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08563] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08566] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08570] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08573] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08576] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08579] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08590] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08596] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08611] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08622] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08626] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08637] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08648] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08658] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08662] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08665] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08670] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08674] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08677] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08680] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08684] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08686] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08691] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08695] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 2/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08699] Single Buffer requirement not met.
+display  D   display_settings.c:212  debug_display_settings           [   0.08701] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 3/1
+display  D   display_settings.c:398  _al_score_display_settings       [   0.08708] Single Buffer requirement not met.
+d3d      D         d3d_disp.cpp:1668 d3d_create_display_internals     [   0.08716] Trying format 0.
+d3d      I         d3d_disp.cpp:1344 d3d_display_thread_proc          [   0.08828] Chose a display format: 23
+d3d      I         d3d_disp.cpp:1413 d3d_display_thread_proc          [   0.08833] Normal window.
+d3d      I         d3d_disp.cpp:781  d3d_create_device                [   0.13474] Using no depth stencil buffer
+d3d      D         d3d_disp.cpp:839  d3d_create_device                [   0.17314] BeginScene succeeded in create_device
+d3d      D         d3d_disp.cpp:847  d3d_create_device                [   0.17320] Success
+d3d      D         d3d_disp.cpp:1691 d3d_create_display_internals     [   0.17327] Resumed after wait.
+d3d      I         d3d_disp.cpp:1724 d3d_create_display_internals     [   0.17337] Format 0 succeeded.
+d3d      D         d3d_disp.cpp:1755 d3d_create_display_internals     [   0.17342] Returning d3d_display: 02BE8588
+d3d      D         d3d_disp.cpp:1780 d3d_create_display_locked        [   0.17345] al_display=02BE8588
+d3d      D         d3d_disp.cpp:1781 d3d_create_display_locked        [   0.17348] al_display->vt=008DE4D0
+system   D            wsystem.c:738  maybe_parent_dir                 [   0.17376] Also searching C:\Users\Kuba\Documents\Visual Studio 2017\Projects\Tank\
+system   D            wsystem.c:788  _al_win_safe_load_library        [   0.17397] PathFindOnPath found: C:\WINDOWS\system32\d3dx9_43.dll
+system   D            wsystem.c:699  load_library_at_path             [   0.17401] Calling LoadLibrary C:\WINDOWS\system32\d3dx9_43.dll
+system   I            wsystem.c:702  load_library_at_path             [   0.17767] Loaded C:\WINDOWS\system32\d3dx9_43.dll
+d3dx9    I        d3d_d3dx9.cpp:88   _imp_load_d3dx9_module_version   [   0.17775] Module "d3dx9_43.dll" loaded.
+dtor     D               dtor.c:196  _al_register_destructor          [   0.17883] added dtor for timer 02BEFBD8, func 0F40173A
+dtor     D               dtor.c:196  _al_register_destructor          [   0.17890] added dtor for queue 008E6E10, func 0F402392
+d3d      I         d3d_disp.cpp:901  d3d_destroy_display              [  73.08046] destroying display 02BE8588 (current 00000000)
+d3d      D         d3d_disp.cpp:885  d3d_destroy_display_internals    [  73.08328] waiting for display 02BE8588's thread to end
+d3d      W         d3d_disp.cpp:595  d3d_destroy_device               [  73.09514] d3d_destroy_device: ref count not 0
+d3d      I         d3d_disp.cpp:1548 d3d_display_thread_proc          [  73.10366] d3d display thread exits
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10525] removed dtor for timer 02BEFBD8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10530] removed dtor for queue 008E6E10
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10534] removed dtor for bitmap 008E5600
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10560] removed dtor for bitmap 008E4690
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10567] removed dtor for bitmap 008E01D8
+dtor     D               dtor.c:116  _al_run_destructors              [  73.10573] calling dtor for font 008F1698, func 0F26105F
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10577] removed dtor for font 008F1698
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10580] removed dtor for sub_bitmap 008FC590
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10583] removed dtor for sub_bitmap 008FC708
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10586] removed dtor for sub_bitmap 008FC880
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10589] removed dtor for sub_bitmap 008FC9F8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10592] removed dtor for sub_bitmap 008FCB70
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10595] removed dtor for sub_bitmap 008FCCE8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10598] removed dtor for sub_bitmap 008FD668
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10602] removed dtor for sub_bitmap 008FD7E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10605] removed dtor for sub_bitmap 008FD958
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10608] removed dtor for sub_bitmap 008FDAD0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10611] removed dtor for sub_bitmap 008FDC48
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10614] removed dtor for sub_bitmap 008FE6B8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10617] removed dtor for sub_bitmap 008FE830
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10620] removed dtor for sub_bitmap 008FDDE8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10623] removed dtor for sub_bitmap 008FE9A8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10626] removed dtor for sub_bitmap 008FEB20
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10629] removed dtor for sub_bitmap 008FDF60
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10632] removed dtor for sub_bitmap 008FE0D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10635] removed dtor for sub_bitmap 008FE250
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10637] removed dtor for sub_bitmap 008FE3C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10640] removed dtor for sub_bitmap 008FE540
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10645] removed dtor for sub_bitmap 009934B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10647] removed dtor for sub_bitmap 00993C08
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10650] removed dtor for sub_bitmap 00993918
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10653] removed dtor for sub_bitmap 00993048
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10656] removed dtor for sub_bitmap 00994070
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10658] removed dtor for sub_bitmap 00993628
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10661] removed dtor for sub_bitmap 00992ED0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10663] removed dtor for sub_bitmap 00993EF8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10665] removed dtor for sub_bitmap 009931C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10668] removed dtor for sub_bitmap 00993338
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10670] removed dtor for sub_bitmap 009937A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10673] removed dtor for sub_bitmap 00993A90
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10676] removed dtor for sub_bitmap 00993D80
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10678] removed dtor for sub_bitmap 009941E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10681] removed dtor for sub_bitmap 00994940
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10683] removed dtor for sub_bitmap 00994360
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10686] removed dtor for sub_bitmap 009944D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10688] removed dtor for sub_bitmap 00994650
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10690] removed dtor for sub_bitmap 00992D58
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10693] removed dtor for sub_bitmap 00992BE0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10695] removed dtor for sub_bitmap 009947C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10698] removed dtor for sub_bitmap 009974E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10700] removed dtor for sub_bitmap 00997660
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10703] removed dtor for sub_bitmap 00997370
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10705] removed dtor for sub_bitmap 009961D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10708] removed dtor for sub_bitmap 009967B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10710] removed dtor for sub_bitmap 009977D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10713] removed dtor for sub_bitmap 00995BF0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10715] removed dtor for sub_bitmap 00997950
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10718] removed dtor for sub_bitmap 00996348
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10721] removed dtor for sub_bitmap 009964C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10725] removed dtor for sub_bitmap 00995D68
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10728] removed dtor for sub_bitmap 00995EE0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10731] removed dtor for sub_bitmap 00996058
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10733] removed dtor for sub_bitmap 009971F8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10736] removed dtor for sub_bitmap 00996638
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10739] removed dtor for sub_bitmap 00996928
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10742] removed dtor for sub_bitmap 00996AA0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10745] removed dtor for sub_bitmap 00996C18
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10748] removed dtor for sub_bitmap 00996D90
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10751] removed dtor for sub_bitmap 00996F08
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10754] removed dtor for sub_bitmap 00997080
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10757] removed dtor for sub_bitmap 00997BF8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10760] removed dtor for sub_bitmap 009994F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10762] removed dtor for sub_bitmap 00999088
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10765] removed dtor for sub_bitmap 00997D70
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10767] removed dtor for sub_bitmap 00998640
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10770] removed dtor for sub_bitmap 00999668
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10772] removed dtor for sub_bitmap 009997E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10774] removed dtor for sub_bitmap 00998D98
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10777] removed dtor for sub_bitmap 00999958
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10779] removed dtor for sub_bitmap 00999200
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10782] removed dtor for sub_bitmap 00997EE8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10784] removed dtor for sub_bitmap 00998060
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10787] removed dtor for sub_bitmap 009981D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10789] removed dtor for sub_bitmap 00998C20
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10792] removed dtor for sub_bitmap 00999378
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10794] removed dtor for sub_bitmap 009987B8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10797] removed dtor for sub_bitmap 00998F10
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10799] removed dtor for sub_bitmap 00998930
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10802] removed dtor for sub_bitmap 00998350
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10804] removed dtor for sub_bitmap 009984C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10806] removed dtor for sub_bitmap 00998AA8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10809] removed dtor for sub_bitmap 0099B720
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10811] removed dtor for sub_bitmap 0099A580
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10814] removed dtor for sub_bitmap 0099BE78
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10816] removed dtor for sub_bitmap 0099A6F8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10819] removed dtor for sub_bitmap 0099C168
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10822] removed dtor for sub_bitmap 0099BA10
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10824] removed dtor for sub_bitmap 0099BB88
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10827] removed dtor for sub_bitmap 0099BFF0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10829] removed dtor for sub_bitmap 0099B2B8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10832] removed dtor for sub_bitmap 0099BD00
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10834] removed dtor for sub_bitmap 0099AFC8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10837] removed dtor for sub_bitmap 0099B898
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10839] removed dtor for sub_bitmap 0099ACD8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10842] removed dtor for sub_bitmap 0099AB60
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10844] removed dtor for sub_bitmap 0099A408
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10847] removed dtor for sub_bitmap 0099A870
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10849] removed dtor for sub_bitmap 0099A9E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10852] removed dtor for sub_bitmap 0099AE50
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10854] removed dtor for sub_bitmap 0099B140
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10857] removed dtor for sub_bitmap 0099B430
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10859] removed dtor for sub_bitmap 0099B5A8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10862] removed dtor for sub_bitmap 0099DA28
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10864] removed dtor for sub_bitmap 0099E5E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10866] removed dtor for sub_bitmap 0099E760
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10869] removed dtor for sub_bitmap 0099E008
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10871] removed dtor for sub_bitmap 0099DBA0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10874] removed dtor for sub_bitmap 0099EBC8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10876] removed dtor for sub_bitmap 0099E180
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10879] removed dtor for sub_bitmap 0099E2F8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10881] removed dtor for sub_bitmap 0099E8D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10884] removed dtor for sub_bitmap 0099DD18
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10886] removed dtor for sub_bitmap 0099EA50
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10889] removed dtor for sub_bitmap 0099F1A8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10891] removed dtor for sub_bitmap 0099DE90
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10893] removed dtor for sub_bitmap 0099ED40
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10896] removed dtor for sub_bitmap 0099E470
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10898] removed dtor for sub_bitmap 0099D5C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10901] removed dtor for sub_bitmap 0099F030
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10903] removed dtor for sub_bitmap 0099EEB8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10906] removed dtor for sub_bitmap 0099F320
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10908] removed dtor for sub_bitmap 0099D738
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10911] removed dtor for sub_bitmap 0099D8B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10913] removed dtor for sub_bitmap 0099FF48
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10916] removed dtor for sub_bitmap 009A1840
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10918] removed dtor for sub_bitmap 009A19B8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10921] removed dtor for sub_bitmap 009A0818
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10926] removed dtor for sub_bitmap 009A0990
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10929] removed dtor for sub_bitmap 009A0B08
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10931] removed dtor for sub_bitmap 009A1B30
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10934] removed dtor for sub_bitmap 009A0C80
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10937] removed dtor for sub_bitmap 009A03B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10940] removed dtor for sub_bitmap 0099FDD0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10943] removed dtor for sub_bitmap 009A0F70
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10946] removed dtor for sub_bitmap 009A00C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10949] removed dtor for sub_bitmap 009A13D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10951] removed dtor for sub_bitmap 009A0238
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10954] removed dtor for sub_bitmap 009A10E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10958] removed dtor for sub_bitmap 009A1260
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10961] removed dtor for sub_bitmap 009A0528
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10963] removed dtor for sub_bitmap 009A06A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10966] removed dtor for sub_bitmap 009A0DF8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10971] removed dtor for sub_bitmap 009A1550
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10973] removed dtor for sub_bitmap 009A16C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10976] removed dtor for sub_bitmap 009A3780
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10978] removed dtor for sub_bitmap 009A3318
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10981] removed dtor for sub_bitmap 009A2D38
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10983] removed dtor for sub_bitmap 009A25E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10986] removed dtor for sub_bitmap 009A2A48
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10988] removed dtor for sub_bitmap 009A31A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10990] removed dtor for sub_bitmap 009A4050
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10993] removed dtor for sub_bitmap 009A3608
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10995] removed dtor for sub_bitmap 009A3490
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.10998] removed dtor for sub_bitmap 009A3A70
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11000] removed dtor for sub_bitmap 009A2EB0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11003] removed dtor for sub_bitmap 009A3028
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11005] removed dtor for sub_bitmap 009A38F8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11008] removed dtor for sub_bitmap 009A3D60
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11010] removed dtor for sub_bitmap 009A2758
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11013] removed dtor for sub_bitmap 009A3BE8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11015] removed dtor for sub_bitmap 009A3ED8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11018] removed dtor for sub_bitmap 009A41C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11021] removed dtor for sub_bitmap 009A4340
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11025] removed dtor for sub_bitmap 009A28D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11028] removed dtor for sub_bitmap 009A2BC0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11031] removed dtor for sub_bitmap 009A6618
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11034] removed dtor for sub_bitmap 009A5768
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11037] removed dtor for sub_bitmap 009A5A58
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11040] removed dtor for sub_bitmap 009A6A80
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11043] removed dtor for sub_bitmap 009A61B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11046] removed dtor for sub_bitmap 009A5EC0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11048] removed dtor for sub_bitmap 009A7350
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11051] removed dtor for sub_bitmap 009A58E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11054] removed dtor for sub_bitmap 009A6328
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11058] removed dtor for sub_bitmap 009A64A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11060] removed dtor for sub_bitmap 009A5BD0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11063] removed dtor for sub_bitmap 009A6BF8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11065] removed dtor for sub_bitmap 009A6038
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11068] removed dtor for sub_bitmap 009A6790
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11070] removed dtor for sub_bitmap 009A7060
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11073] removed dtor for sub_bitmap 009A6D70
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11075] removed dtor for sub_bitmap 009A6908
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11077] removed dtor for sub_bitmap 009A5D48
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11080] removed dtor for sub_bitmap 009A55F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11082] removed dtor for sub_bitmap 009A6EE8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11085] removed dtor for sub_bitmap 009A71D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11087] removed dtor for sub_bitmap 009A9E58
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11090] removed dtor for sub_bitmap 009AA438
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11093] removed dtor for sub_bitmap 009A8270
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11095] removed dtor for sub_bitmap 009AA8A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11098] removed dtor for sub_bitmap 009A89C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11100] removed dtor for sub_bitmap 009A8B40
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11103] removed dtor for sub_bitmap 009AAA18
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11105] removed dtor for sub_bitmap 009A9FD0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11108] removed dtor for sub_bitmap 009A8CB8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11110] removed dtor for sub_bitmap 009A8E30
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11113] removed dtor for sub_bitmap 009A80F8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11115] removed dtor for sub_bitmap 009A7E08
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11117] removed dtor for sub_bitmap 009AA5B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11120] removed dtor for sub_bitmap 009AA2C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11123] removed dtor for sub_bitmap 009A8FA8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11125] removed dtor for sub_bitmap 009A86D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11128] removed dtor for sub_bitmap 009AA728
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11130] removed dtor for sub_bitmap 009A9120
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11133] removed dtor for sub_bitmap 009A83E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11135] removed dtor for sub_bitmap 009AAB90
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11138] removed dtor for sub_bitmap 009A7F80
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11140] removed dtor for sub_bitmap 009A9298
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11142] removed dtor for sub_bitmap 009A9410
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11145] removed dtor for sub_bitmap 009A9588
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11147] removed dtor for sub_bitmap 009A8560
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11150] removed dtor for sub_bitmap 009A9700
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11152] removed dtor for sub_bitmap 009A8850
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11155] removed dtor for sub_bitmap 009A9878
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11157] removed dtor for sub_bitmap 009A99F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11160] removed dtor for sub_bitmap 009A9B68
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11162] removed dtor for sub_bitmap 009A9CE0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11165] removed dtor for sub_bitmap 009AA148
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11167] removed dtor for sub_bitmap 009AB750
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11169] removed dtor for sub_bitmap 009ABA40
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11172] removed dtor for sub_bitmap 009AB460
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11174] removed dtor for sub_bitmap 009AAE80
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11177] removed dtor for sub_bitmap 009AB5D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11179] removed dtor for sub_bitmap 009AAD08
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11182] removed dtor for sub_bitmap 009AB2E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11184] removed dtor for sub_bitmap 009AB8C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11187] removed dtor for sub_bitmap 009ABBB8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11189] removed dtor for sub_bitmap 009AAFF8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11192] removed dtor for sub_bitmap 009AB170
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11194] removed dtor for sub_bitmap 009B1D98
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11197] removed dtor for sub_bitmap 009B1F10
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11199] removed dtor for sub_bitmap 009B2200
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11202] removed dtor for sub_bitmap 009B1C20
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11204] removed dtor for sub_bitmap 009B17B8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11206] removed dtor for sub_bitmap 009B1350
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11209] removed dtor for sub_bitmap 009B2088
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11212] removed dtor for sub_bitmap 009B1930
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11215] removed dtor for sub_bitmap 009B14C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11218] removed dtor for sub_bitmap 009B1640
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11221] removed dtor for sub_bitmap 009B1AA8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11225] removed dtor for sub_bitmap 009AF5F0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11228] removed dtor for sub_bitmap 009AFA58
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11230] removed dtor for sub_bitmap 009AF478
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11233] removed dtor for sub_bitmap 009AF8E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11236] removed dtor for sub_bitmap 009AFEC0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11239] removed dtor for sub_bitmap 009AED20
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11242] removed dtor for sub_bitmap 009AFBD0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11245] removed dtor for sub_bitmap 009B0EE8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11248] removed dtor for sub_bitmap 009AF188
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11251] removed dtor for sub_bitmap 009AEE98
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11254] removed dtor for sub_bitmap 009B01B0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11257] removed dtor for sub_bitmap 009B0328
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11260] removed dtor for sub_bitmap 009AE450
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11262] removed dtor for sub_bitmap 009B0618
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11265] removed dtor for sub_bitmap 009AF300
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11268] removed dtor for sub_bitmap 009B0BF8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11271] removed dtor for sub_bitmap 009AFD48
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11274] removed dtor for sub_bitmap 009B0038
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11277] removed dtor for sub_bitmap 009B04A0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11280] removed dtor for sub_bitmap 009AF010
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11283] removed dtor for sub_bitmap 009AE740
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11288] removed dtor for sub_bitmap 009AF768
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11303] removed dtor for sub_bitmap 009B0790
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11307] removed dtor for sub_bitmap 009AE5C8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11310] removed dtor for sub_bitmap 009B0D70
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11313] removed dtor for sub_bitmap 009AEA30
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11316] removed dtor for sub_bitmap 009B0908
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11326] removed dtor for sub_bitmap 009B0A80
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11330] removed dtor for sub_bitmap 009AE8B8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11334] removed dtor for sub_bitmap 009B1060
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11338] removed dtor for sub_bitmap 009B11D8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11341] removed dtor for sub_bitmap 009AEBA8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11344] removed dtor for sub_bitmap 009B3480
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11347] removed dtor for sub_bitmap 009B4620
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11350] removed dtor for sub_bitmap 009B4EF0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11353] removed dtor for sub_bitmap 009B41B8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11356] removed dtor for sub_bitmap 009B5068
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11359] removed dtor for sub_bitmap 009B3018
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11362] removed dtor for sub_bitmap 009B3D50
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11365] removed dtor for sub_bitmap 009B2EA0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11368] removed dtor for sub_bitmap 009B3190
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11371] removed dtor for sub_bitmap 009B3308
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11373] removed dtor for sub_bitmap 009B35F8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11376] removed dtor for sub_bitmap 009B2D28
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11379] removed dtor for sub_bitmap 009B4C00
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11382] removed dtor for sub_bitmap 009B4798
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11385] removed dtor for sub_bitmap 009B4330
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11388] removed dtor for sub_bitmap 009B3770
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11391] removed dtor for sub_bitmap 009B38E8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11394] removed dtor for sub_bitmap 009B3A60
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11397] removed dtor for sub_bitmap 009B3BD8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11400] removed dtor for sub_bitmap 009B3EC8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11404] removed dtor for sub_bitmap 009B4D78
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11406] removed dtor for sub_bitmap 009B4040
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11409] removed dtor for sub_bitmap 009B2458
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11412] removed dtor for sub_bitmap 009B28C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11415] removed dtor for sub_bitmap 009B44A8
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11418] removed dtor for sub_bitmap 009B4910
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11421] removed dtor for sub_bitmap 009B2748
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11424] removed dtor for sub_bitmap 009B4A88
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11427] removed dtor for sub_bitmap 009B51E0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11430] removed dtor for sub_bitmap 009B25D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11433] removed dtor for sub_bitmap 009B2A38
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11435] removed dtor for sub_bitmap 009B2BB0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11438] removed dtor for sub_bitmap 009B57C0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11441] removed dtor for sub_bitmap 009B5F18
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11444] removed dtor for sub_bitmap 009B6090
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11447] removed dtor for sub_bitmap 009B54D0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11450] removed dtor for sub_bitmap 009B6208
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11453] removed dtor for sub_bitmap 009B5DA0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11456] removed dtor for sub_bitmap 009B5648
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11459] removed dtor for sub_bitmap 009B5938
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11461] removed dtor for sub_bitmap 009B5AB0
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11464] removed dtor for sub_bitmap 009B5C28
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11467] removed dtor for sub_bitmap 009B5358
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11470] removed dtor for sub_bitmap 009B9A78
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11473] removed dtor for sub_bitmap 009B8470
+dtor     D               dtor.c:227  _al_unregister_destructor        [  73.11476] removed dtor for bitmap 008FC418
